@@ -45,6 +45,10 @@ p{
 	font-size: 5em;
 }
 
+.gridftplain{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
 .normalft{
 	font-family: 'Lato', sans-serif;
 }
@@ -152,7 +156,7 @@ box-shadow: -4px 6px 5px -2px rgba(0,0,0,0.75);
 }
 
 .colcardblue p{
-	font-size: 1.0em;
+	font-size: 2.0em;
 }
 
 .question{
