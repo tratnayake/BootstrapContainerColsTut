@@ -130,13 +130,13 @@ box-shadow: -4px 6px 5px -2px rgba(0,0,0,0.75);
 }
 
 .colcard p{
-	font-size: 1.0em;
+	
 }
 
 @media (max-width: 768px) { 
 
 	.colcardblue p{
-	font-size: 1.7em;
+	
 	}
 
 
