@@ -1,0 +1,401 @@
+<!doctype html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+        <!-- Used for the page loading animations -->
+        <script src="./pace/pace.js"></script>
+        <link href="./pace/themes/blue/pace-theme-barber-shop.css" rel="stylesheet" />
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/main.css">
+        <!-- Custom Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,700italic|Black+Ops+One|Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css'>
+        <!-- Used for displaying the math -->
+        <script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+    </head>
+    <body>
+
+    <div id="header" class="container-fluid">
+        <br>
+        <div style="text-align: center" class="headerFont">
+            <h1 class="normalft">Using Bootstrap </h1>
+            <h1 class="containerft">Containers & </h1><h1 class="gridft">Columns</h1>
+            <p>Because using tables for positioning is <strong>SO</strong> 1999...</p> 
+            <p style="font-size: 1em">by  <a class="twitterlink"  href="http://twitter.com/tratnayake">@tratnayake</a></p>
+            <h1><img class="" style="height: 150px;"  src="./img/screen.png"></h1>
+            <br>
+        </div> 
+        <br>
+    </div>
+
+
+    <div id="containerInfo">
+        <h1 style="text-align: center" class="containerft">Containers</h1>
+        <img class="img-center" style="height: 135px" src="./img/box-icon.png">
+        <br>
+        <p>Containers come in two varieties</p>    
+    </div>
+
+    <div id="fluid" class="container-fluid">
+            <div class="headerFont text-center">
+                 <h1>Fluid <h1 class="containerft">Containers</h1></h1>
+
+            </div>
+           
+            <br>
+            <img class="img-center img-circle" src="./img/labflask.jpg">
+
+            <br>
+            <p>That take up the whole width of the page.</p>
+            <div class="container">
+                <script src="https://gist.github.com/tratnayake/3dcfd77071d035174a6f.js"></script>
+            </div>        
+    </div>
+
+    <br>
+
+    <div id="contained" class="container">
+        
+            <div class="headerFont text-center">
+                 <h1>Padded <h1 class="containerft">Containers</h1></h1>
+
+            </div>
+
+            <br>
+            <img class="img-center img-circle" src="./img/sofa-flat-icon-vector-illustration-eps10-1144696.jpg"/>
+
+            <br>
+            <p>That are centered(padded) on the page.</p>
+            <script src="https://gist.github.com/tratnayake/29dfb90be5b3b8cfc419.js"></script>
+    </div>
+
+    <div id="outerContainer" class="container-fluid">
+        
+            <div class="headerFont text-center">
+                  <h1 class="containerft">Container</h1><h1>-ception</h1>
+
+            </div>
+
+            <img class="img-center img-circle" style="height: 135px; width: 135px;" src="./img/box_icon.png">
+            <br>
+
+            <p>You can put padded containers inside of fluid containers</p>
+
+            <div class="card container">
+                <h3>Like this card.</h3>
+                <br>
+                <script src="https://gist.github.com/tratnayake/5cba6ec61233ac32e911.js"></script>
+            </div>
+
+            <br>
+            <br>
+    </div>
+    
+    <div id="containerIntro" class="container-fluid">
+        
+        <h1 class="gridft">Convenient Columns!</h1>
+        <img class="img-center" style="height: 135px; width: auto" src="./img/grid-icon.png">
+        <br>
+        <p> Bootstrap provides a grid system that allows you to evenly distribute content across your page through the use of columns.</p>
+
+    </div>    
+
+    <div id="fullWidth" class="container-fluid">
+        <h2>Bootstrap sees the width of the page, as 12 columns.</h2>
+        <br>
+        <div class="col-xs-4"><h1><span class="glyphicon glyphicon-chevron-left"></span></h1></div>
+        <div class="col-xs-4"><h1 style="color: white"><span class="glyphicon glyphicon-resize-horizontal"></span><br>
+        12 Columns</h1></div>
+        <div class="col-xs-4"><h1><span class="glyphicon glyphicon-chevron-right"></span></h1></div>
+    </div>   
+
+    <div id="threecol" class="container-fluid">
+    <h1 class="gridft">Goal: Make a 3 column section</h1>
+    <hr>
+        <div class="colcard col-sm-4">
+
+                <h1>Step 1:</h1>
+            
+                 <img class="img-center" style="height: 75px" src="./img/calculator.png">
+                <h3>Calculate column sizes</h3>
+                <hr>
+
+                <ol>
+                    <li>$$column size ={12 cols \over desired number of cols}.$$</li>
+                    <li>$$4 ={12 cols \over 3 cols}.$$</li>
+                </ol>         
+        </div>
+        <div class="colcard col-sm-4">
+                <h1>Step 2:</h1>
+                <img class="img-center" style="height: 75px" src="./img/toolbox.png">
+                <h3>Build your columns</h3>
+                <hr>
+                <script src="https://gist.github.com/tratnayake/5c947963a9ef2eea8ec4.js"></script>         
+        </div>
+        <div class="colcard col-sm-4">
+                <h1>Step 3:</h1>
+                 <img class="img-center" style="height: 75px" src="./img/money.png">
+                <h3>repeat and PROFIT!</h3>
+                <hr>
+                <img class="img-center img-circle" style="height: 100px;" src="./img/walk-cycle.gif">
+                <p style="font-size:0.7em; color: white">*Take money to bank</p>    
+        </div>
+
+    <br>
+    <br>
+    </div> <!-- End of 3 col -->
+
+    <br>
+    <div id="q1" class="question container-fluid">
+    <br>
+
+        <img class="img-center img-circle" style="height: 134px;" src="./img/questionmark.png">
+        <div class="question1inner container">
+        <br>
+
+            <h1>But what if we had more than the acceptable amount of columns?</h1>
+            <script src="https://gist.github.com/tratnayake/5daa8a99581fd73d8162.js"></script>
+            <br>
+
+            <div class="text-center">
+                 <button id="btnFindOut" type="button" class="btn btn-info"> Find out!</button>
+                 <br>
+            </div>
+            <br>
+
+        </div>
+    </div> <!-- End of q1 -->
+    
+    <!-- Start of q1answer -->
+    <div hidden id="overcols" class="container-fluid">
+            <div class="colcard col-sm-4">
+
+                <h1>Step 1:</h1>
+            
+                 <img class="img-center" style="height: 75px" src="./img/calculator.png">
+                <h3>Calculate column sizes</h3>
+                <hr>
+                <ol>
+                    <li>$$column size ={12 cols \over desired number of cols}.$$</li>
+                    <li>$$4 ={12 cols \over 3 cols}.$$</li>
+                </ol>
+                     
+        </div>
+        <div class="colcard col-sm-4">
+                <h1>Step 2:</h1>
+                <img class="img-center" style="height: 75px" src="./img/toolbox.png">
+                <h3>Build your columns</h3>
+                <hr>
+                <script src="https://gist.github.com/tratnayake/5c947963a9ef2eea8ec4.js"></script>
+                
+        </div>
+        <div class="colcard col-sm-4">
+                <h1>Step 3:</h1>
+                 <img class="img-center" style="height: 75px" src="./img/money.png">
+                <h3>repeat and PROFIT!</h3>
+                <hr>
+                <img class="img-center img-circle" style="height: 100px;" src="./img/walk-cycle.gif">
+                <p style="font-size:0.7em; color: white">*Take money to bank</p>
+                
+                
+        </div>
+
+        <div class="colcard col-sm-4">
+                <h1>Step 4:</h1>
+                 <img class="img-center" style="height: 75px" src="./img/donateicon.png">
+                <h3>Give to those that need</h3>
+                <hr>
+                <h3 class="gridft" style="color: white">“We make a living by what we get. We make a life by what we give.” </h3>
+                <p>― Winston S. Churchill</p>
+                
+                
+        </div>
+
+        <div class="colcardblue col-sm-8">
+        <br>
+            
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-4">
+                    <p>If you create more columns than the page spans, Bootstrap will automatically create a new row for you.</p>
+
+                </div>
+                <div class="col-xs-12 col-sm-8">
+                    <img class="img-center img-circle" style="height: 100px;" src="./img/thumbs-up-icon.png">
+                </div>
+                
+            </div> <!-- End of row -->
+            
+                        
+            <div class="hidden-xs">
+            <p style="color: white; font-size: 0.7em">
+            "But how is this column twice the size??"</p>
+            <script src="https://gist.github.com/tratnayake/c0e0ad6829af3b0e6c77.js"></script>
+            </div>
+
+        </div> <!-- end of colcard blue -->
+    </div> <!-- end of q1 Answer -->
+
+    <div id="q2" class="question container-fluid">
+        <br>
+
+
+        <img class="img-center img-circle" style="height: 134px;" src="./img/questionmark.png">
+        <div class="question1inner container">
+        <br>
+            <h1>What does the col-<strong>small</strong>-4 mean?</h1>
+    
+
+            <br>
+            <div class="text-center">
+                 <button id="btnFindOut2" type="button" class="btn btn-info"> Find out!</button>
+                 <br>
+
+            </div>
+            <br>
+
+        </div>
+        <br>
+
+    </div> <!-- End of q2 -->
+
+    <!-- start of q2a -->
+    <div hidden class="sizes" class="conatainer-fluid">
+        <br>
+        
+            <p>The XS,SMALL,LARGE indicates what screen size this column size applies to. </p>
+            <p>e.g. "col-sm-4" means that this elment will span 4 columns on a SMALL screen size. </p>
+        
+        <p><strong>According to <a href="http://getbootstrap.com/css/#grid">boostrap</a>: <strong></p>
+            
+            <div class="colcard col-sm-6 col-md-3">
+                <h2>col-xs</h2>
+                <img class="img-center " style="height: 128px;" src="./img/smartphone.png">
+                <hr>
+                <h2>Phones</h2>
+                <p>Any device with a width < 768px </p>
+
+            </div>
+            <div class="colcard col-sm-6 col-md-3">
+                <h2>col-sm</h2>
+                <img class="img-center " style="height: 128px;" src="./img/tablet.png">
+                <hr>
+                <h2>Tablets</h2>
+                <p>Any device with a width > 768px </p>
+
+            </div>
+            <div class="colcard col-sm-6 col-md-3">
+                <h2>col-md</h2>
+                <img class="img-center " style="height: 128px;" src="./img/desktop.png">
+                <hr>
+                <h2>Laptop/Desktop</h2>
+                <p>Any device with a width > 990px </p>
+
+            </div>
+            <div class="colcard col-sm-6 col-md-3">
+                <h2>col-lg</h2>
+                <img class="img-center " style="height: 128px;" src="./img/desktop.png">
+                <hr>
+                <h2>Big Laptop/Desktop</h2>
+                <p>Any device with a width > 1200px </p>
+
+                
+            </div>
+
+        <h2><br>So does that mean they stack depending on the screen size?</h2>
+        <br>
+        <h1><strong>YES!</strong></h1>
+        
+        <div class="colcardblue col-sm-6">
+            <h2>The code for the above cards are:</h2>
+        <script src="https://gist.github.com/tratnayake/517165de50b4052eb127.js"></script>
+        </div>
+
+        <div class="colcardblue col-sm-6">
+            <h2>Which means:</h2>
+            <br>
+            <br>
+            <ul>
+                <li>On a medium or higher device, make every card element width span 3 columns</li>
+                <li>On a small to medium device, make every card span 6 columns</li>
+                <li>Bootstrap automatically makes anything less than a medium device automatically scale the elements to 12 columns</li>
+            </ul>
+        </div>
+
+    </div> <!-- end of q2a -->
+
+    <div id="finishContainer" class="container-fluid">
+           <br>
+
+           <div id="finish" class="container">
+                <h1 style="color: white">Thank-you for checking out this tutorial!</h1>
+               <br>
+                <img class="img-center img-circle" src="http://tratnayake.me/wp-content/themes/thilinaratnayake/imgs/profilepic.jpg">
+              
+               <br>
+               <h3>If you have any questions, please tweet me <a href="http://twitter.com/tratnayake">@tratnayake</a></h3>
+               
+           </div> 
+
+
+    </div>
+
+
+     
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+        <script>
+
+
+        $( document ).ready(function() {
+            $("#btnFindOut").click(function(){
+                $("#overcols").fadeIn();
+
+                $('html, body').animate({
+                    scrollTop: $("#overcols").offset().top
+                }, 1000);
+
+            })
+
+            $("#btnFindOut2").click(function(){
+                $(".sizes").fadeIn();
+
+                $('html, body').animate({
+                    scrollTop: $(".sizes").offset().top
+                }, 1000);
+
+            })
+        });
+
+        </script>
+      
+    </body>
+
+
+</html>

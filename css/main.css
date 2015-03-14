@@ -1,0 +1,184 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*- Colours -*/
+
+head{
+
+}	
+
+body{
+	background-color: #ecf0f1;
+}
+
+.whitegrey{
+	background-color: #ecf0f1;
+}
+
+.grey{
+	background-color: #7f8c8d;
+}
+
+.green{
+	background-color: #2ecc71;
+}
+
+
+/*- Fonts -*/
+
+/*- Font Styles
+font-family: 'Lato', sans-serif;
+font-family: 'Black Ops One', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+ -*/
+
+p{
+	font-size: 2em;
+	font-family: 'Lato', sans-serif;
+}
+
+.gridft{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 5em;
+}
+
+.normalft{
+	font-family: 'Lato', sans-serif;
+}
+
+.containerft{
+	font-family: 'Black Ops One', cursive;
+}
+
+.headerFont{
+
+}
+
+h1,h2,h3,h4,h5,p{
+	text-align: center;
+}
+
+
+#header{
+	background-color: #2980b9;
+}
+
+.headerFont h1{
+
+	font-size: 3em;
+		display: inline;
+
+}
+
+
+
+.img-center{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fluid{
+	background-color: #3498db;
+}
+
+#contained{
+	background-color: #2ecc71;
+
+	-webkit-box-shadow: -4px 6px 5px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -4px 6px 5px -2px rgba(0,0,0,0.75);
+box-shadow: -4px 6px 5px -2px rgba(0,0,0,0.75);
+}
+
+
+#outerContainer{
+	margin-top: 20px;
+	background-color: #7f8c8d;
+	color: white;
+}
+
+
+#fullWidth{
+	background-color: #3498db;
+}
+
+.card{
+	color: #7f8c8d;
+background-color: white;
+	-webkit-box-shadow: -4px 6px 5px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -4px 6px 5px -2px rgba(0,0,0,0.75);
+box-shadow: -4px 6px 5px -2px rgba(0,0,0,0.75);
+}
+
+#threecol{
+background-color: #ecf0f1;
+}
+
+.colcard{
+	background-color: #51CD83;
+	height: 360px;
+	border-style: solid;
+    border-width: 1px;
+    border-color: white;
+
+    -webkit-box-shadow: -4px 6px 5px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -4px 6px 5px -2px rgba(0,0,0,0.75);
+box-shadow: -4px 6px 5px -2px rgba(0,0,0,0.75);
+}
+
+.colcard p{
+	font-size: 1.0em;
+}
+
+@media (max-width: 768px) { 
+
+	.colcardblue p{
+	font-size: 1.7em;
+	}
+
+
+
+ }
+
+.colcardblue{
+	background-color:  #2980b9;
+	height: 360px;
+	border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.question{
+	background-color: #f1c40f;
+}
+
+#finishContainer{
+		background-color: #2980b9;
+}
+
+#finish{
+	color: white;
+	
+}
+
+#finish h1,h2,h3,h4,p,a{
+	font-family: 'Lato', sans-serif;
+}
+
+#finish a{
+	color: #2ecc71;
+}
+
+a .twitterlink{
+	color: #2ecc71;
+}
+
+.twitterlink{
+	color: white;
+}
+
+
+
